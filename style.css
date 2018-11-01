@@ -21,28 +21,29 @@ nav {
 article{
     color: #ebebeb;
     background: #777;
-    padding: 10px;
-    margin-top: 100px;
-
+    height: 200px;
+    padding: 10px; 
+    margin-top: 20px;
 }
 h1, p{
     color: #777;
     background: #ebebeb;
-    padding: 25px;
+    padding: 20px;
 }
 section {
-    width: 495px;
-    padding: 5px;
+    width: 495px !important;
+    height: 275px;
+    padding: 25px 5px 0px 5px;
 
 }
 aside{
     float: right;
     width: 440px;
-    padding: 5px 0;
-
+    height: 280px;
+    padding: 20px 0 0 0;
 }
 section, aside {
-    min-height: 300px;
+    min-height: 250px;
 
 }
 footer{
