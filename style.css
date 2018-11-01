@@ -1,0 +1,52 @@
+body {
+    background: #777;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    font-family: Arial, "Helvetica-Neue", Arial, Helvetica, sans-serif; 
+    text-align: center;
+    margin: auto;
+}
+header, nav {
+    padding: 25px;
+    margin: 10px 0;
+}
+
+nav, header, section, aside, footer{
+    background: #ebebeb;
+}
+nav {
+    margin-bottom: 15px;
+}
+article{
+    color: #ebebeb;
+    background: #777;
+    padding: 10px;
+    margin-top: 100px;
+
+}
+h1, p{
+    color: #777;
+    background: #ebebeb;
+    padding: 25px;
+}
+section {
+    width: 495px;
+    padding: 5px;
+
+}
+aside{
+    float: right;
+    width: 440px;
+    padding: 5px 0;
+
+}
+section, aside {
+    min-height: 300px;
+
+}
+footer{
+    margin: 15px 0;
+    clear: both;
+    padding:25px;
+}
